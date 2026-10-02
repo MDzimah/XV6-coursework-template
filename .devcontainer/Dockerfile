@@ -2,7 +2,7 @@ FROM mcr.microsoft.com/devcontainers/base:ubuntu-24.04
 
 ENV DEBIAN_FRONTEND=noninteractive
 
-# Update packages and install essentials
+# Update packages and install essentialss
 RUN apt-get update && \
     apt-get install -y \
     build-essential \
